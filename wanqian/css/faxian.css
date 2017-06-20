@@ -1,0 +1,128 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑"; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  width: 100%; }
+  header .head {
+    width: 100%;
+    padding: 12px 0;
+    background: #27b8fb; }
+    header .head input {
+      width: 70%;
+      height: 30px;
+      border: none;
+      background-color: #fff;
+      background-image: url(../imges/faxin-fdj.jpg);
+      background-repeat: no-repeat;
+      background-size: 8%;
+      background-position: 2% 50%;
+      margin-left: 60px;
+      border-radius: 3px; }
+  header .banner {
+    width: 100%; }
+    header .banner img {
+      width: 100%; }
+
+nav {
+  width: 100%; }
+  nav section {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px auto; }
+    nav section a {
+      display: block;
+      width: 25%;
+      text-align: center;
+      margin: 5px 0; }
+      nav section a img {
+        width: 45%; }
+      nav section a p {
+        margin: 5px;
+        font-size: 14px;
+        color: #000; }
+
+main {
+  width: 100%; }
+  main aside:nth-child(1) {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 12px;
+    border-bottom: 10px solid #f7fafb; }
+    main aside:nth-child(1) section {
+      width: 47%;
+      padding: 20px 0;
+      background: #f7fafb; }
+      main aside:nth-child(1) section div {
+        float: left; }
+        main aside:nth-child(1) section div p:nth-child(1) {
+          font-size: 16px;
+          color: #000; }
+        main aside:nth-child(1) section div p:nth-child(2) {
+          font-size: 14px;
+          color: #999;
+          margin-top: 15px; }
+      main aside:nth-child(1) section div:nth-child(1) {
+        width: 64%;
+        margin-left: 10px; }
+      main aside:nth-child(1) section div:nth-child(2) {
+        width: 40px;
+        height: 40px;
+        margin-top: 15px; }
+        main aside:nth-child(1) section div:nth-child(2) img {
+          width: 100%; }
+  main aside:nth-child(2) {
+    width: 100%;
+    margin-top: 10px; }
+    main aside:nth-child(2) img {
+      width: 100%;
+      padding-bottom: 61px; }
+
+footer {
+  width: 100%;
+  height: 60px;
+  padding-top: 5px;
+  background: #26b8fb;
+  position: relative;
+  position: fixed;
+  bottom: 0; }
+  footer .yuan {
+    width: 65px;
+    height: 65px;
+    background: #26b8fb;
+    border-radius: 50%;
+    position: absolute;
+    top: -46%;
+    left: 41.5%; }
+  footer section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative; }
+    footer section a {
+      width: 25%;
+      display: block;
+      text-align: center; }
+      footer section a p {
+        color: #fff;
+        font-size: 14px;
+        margin-top: 3px; }
+      footer section a .img {
+        width: 43%; }
+      footer section a .img2 {
+        width: 65%;
+        margin-top: -34%; }
+
+/*# sourceMappingURL=faxian.css.map */

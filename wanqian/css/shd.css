@@ -1,0 +1,62 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑"; }
+
+header {
+  width: 100%;
+  padding: 10px 0;
+  background: #26b8fb;
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  text-align: center; }
+  header a:nth-child(1) {
+    float: left;
+    margin-left: 5%;
+    margin-top: 1%; }
+    header a:nth-child(1) img {
+      width: 52%; }
+  header a:nth-child(3) {
+    float: right;
+    margin-right: 3.5%;
+    margin-top: 1%; }
+    header a:nth-child(3) img {
+      width: 58%; }
+
+main {
+  width: 100%; }
+  main section:nth-child(1) {
+    width: 95%;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto; }
+    main section:nth-child(1) div:nth-child(1) {
+      color: #26b8fb;
+      border-bottom: 2px solid #26b8fb;
+      padding: 15px 0;
+      font-size: 18px; }
+    main section:nth-child(1) div:nth-child(2) {
+      color: #333;
+      padding: 15px 0;
+      font-size: 18px; }
+  main section:nth-child(2) {
+    width: 95%;
+    margin: 10px auto; }
+    main section:nth-child(2) img {
+      width: 100%; }
+  main section:nth-child(3) {
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 10px; }
+    main section:nth-child(3) div {
+      font-size: 16px;
+      color: #666; }
+    main section:nth-child(3) p {
+      font-size: 14px;
+      color: #ccc; }
+
+/*# sourceMappingURL=shd.css.map */

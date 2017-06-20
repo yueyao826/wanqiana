@@ -1,0 +1,75 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑"; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  width: 100%;
+  padding: 10px 0;
+  background: #26b8fb;
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  position: fixed;
+  top: 0; }
+  header a:nth-child(1) {
+    float: left;
+    margin-left: 5%;
+    margin-top: 1%; }
+    header a:nth-child(1) img {
+      width: 52%; }
+  header a:nth-child(3) {
+    float: right;
+    margin-right: 3.5%;
+    margin-top: 1%; }
+    header a:nth-child(3) img {
+      width: 58%; }
+
+main {
+  width: 100%;
+  padding-top: 53px; }
+  main section {
+    width: 100%;
+    padding-bottom: 50px;
+    border-bottom: 10px solid #f7f3f4; }
+    main section ul {
+      width: 93%;
+      margin: 6px auto; }
+      main section ul li:nth-child(1) {
+        width: 100%;
+        margin-bottom: 5px; }
+        main section ul li:nth-child(1) img {
+          width: 100%; }
+      main section ul li:nth-child(2) {
+        font-size: 18px; }
+      main section ul li:nth-child(3) {
+        font-size: 12px;
+        width: 100%; }
+        main section ul li:nth-child(3) p {
+          float: left; }
+        main section ul li:nth-child(3) p:nth-child(1) {
+          margin-top: 14px; }
+          main section ul li:nth-child(3) p:nth-child(1) img {
+            width: 60%; }
+        main section ul li:nth-child(3) p:nth-child(2) {
+          margin-top: 20px; }
+        main section ul li:nth-child(3) p:nth-child(3) {
+          margin-top: 20px;
+          color: #999; }
+          main section ul li:nth-child(3) p:nth-child(3) a {
+            color: #F0AD4E; }
+        main section ul li:nth-child(3) p:nth-child(4) {
+          margin-top: 20px;
+          color: #999;
+          float: right;
+          margin-left: 100px; }
+
+/*# sourceMappingURL=kyj.css.map */

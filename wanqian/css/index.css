@@ -1,0 +1,178 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑"; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+header {
+  width: 100%; }
+  header .header-sy {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    background: #27b8fb; }
+  header .swiper-slide {
+    width: 100%; }
+    header .swiper-slide img {
+      width: 100%; }
+
+nav {
+  width: 100%; }
+  nav ul {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto; }
+    nav ul a {
+      display: block;
+      width: 25%;
+      text-align: center; }
+      nav ul a li {
+        margin: 10px 0; }
+        nav ul a li img {
+          width: 55%; }
+        nav ul a li p {
+          margin: 5px;
+          font-size: 16px;
+          color: #333; }
+
+main {
+  width: 100%; }
+  main article {
+    width: 100%; }
+    main article section:nth-child(1) {
+      width: 100%; }
+      main article section:nth-child(1) div {
+        font-size: 20px;
+        padding: 0 10px;
+        border-left: 5px solid #26b8fb;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px; }
+    main article section:nth-child(2) {
+      width: 80%;
+      margin: 0 auto; }
+      main article section:nth-child(2) img {
+        width: 100%; }
+    main article section:nth-child(3) {
+      width: 100%;
+      margin-top: 10px; }
+      main article section:nth-child(3) p {
+        text-align: center;
+        line-height: 24px;
+        font-size: 14px; }
+    main article section:nth-child(4) {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 15px; }
+      main article section:nth-child(4) div {
+        width: 20%; }
+        main article section:nth-child(4) div img {
+          width: 100%; }
+
+#aside2 {
+  width: 100%;
+  margin-top: 30px; }
+  #aside2 section:nth-child(1) {
+    width: 100%; }
+    #aside2 section:nth-child(1) div {
+      font-size: 20px;
+      padding: 0 10px;
+      border-left: 5px solid #26b8fb;
+      margin-left: 20px;
+      margin-top: 30px;
+      margin-bottom: 20px; }
+  #aside2 section:nth-child(2) {
+    width: 100%; }
+    #aside2 section:nth-child(2) img {
+      width: 100%; }
+  #aside2 section:nth-child(3) {
+    width: 95%;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc; }
+    #aside2 section:nth-child(3) div {
+      width: 100%;
+      margin: 10px 0; }
+      #aside2 section:nth-child(3) div span:nth-child(1) {
+        font-size: 18px; }
+      #aside2 section:nth-child(3) div span:nth-child(2) {
+        font-size: 18px;
+        color: #ff4f57; }
+        #aside2 section:nth-child(3) div span:nth-child(2) a {
+          font-size: 10px;
+          color: #ff4f57; }
+    #aside2 section:nth-child(3) p {
+      margin-bottom: 25px; }
+      #aside2 section:nth-child(3) p a {
+        background: url(../imges/dh.png) no-repeat 0px 0px;
+        display: inline-block;
+        padding-left: 16px;
+        line-height: 20px;
+        color: #999;
+        margin-right: 20px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        background-size: 8%; }
+      #aside2 section:nth-child(3) p i {
+        background: url(../imges/lk.png) no-repeat 0px 0px;
+        padding-left: 20px;
+        display: inline-block;
+        line-height: 20px;
+        color: #999;
+        font-style: normal;
+        margin-right: 20px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        background-size: 25%; }
+  #aside2 section:nth-child(4) {
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 61px; }
+    #aside2 section:nth-child(4) img {
+      width: 100%; }
+
+footer {
+  width: 100%;
+  height: 60px;
+  padding-top: 5px;
+  background: #26b8fb;
+  position: relative;
+  position: fixed;
+  bottom: -3px; }
+  footer .yuan {
+    width: 65px;
+    height: 65px;
+    background: #26b8fb;
+    border-radius: 50%;
+    position: absolute;
+    top: -46%;
+    left: 41.5%; }
+  footer section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative; }
+    footer section a {
+      width: 25%;
+      display: block;
+      text-align: center; }
+      footer section a p {
+        color: #fff;
+        font-size: 14px;
+        margin-top: 3px; }
+      footer section a .img {
+        width: 43%; }
+      footer section a .img2 {
+        width: 65%;
+        margin-top: -34%; }
+
+/*# sourceMappingURL=index.css.map */

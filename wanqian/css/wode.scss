@@ -1,0 +1,130 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    padding: 10px 0;
+    background: #26b8fb;
+    section{
+        width: 90%;
+        font-size: 20px;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        div:nth-child(1){
+            img{
+                width: 50%;
+            }
+        }
+    }
+}
+nav{
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 10px solid #f7f7f7;
+    .tx{
+        width: 100%;
+        text-align: center;
+        margin: 30px 0;
+        img{
+            width: 20%;
+        }
+    }
+    .nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        a{
+            display: block;
+            text-align: center;
+            img{
+                width: 50%;
+            }
+            p{
+                font-size: 14px;
+                color: #575757;
+            }
+        }
+        i{
+            width: 1px;
+            height: 30px;
+            background: #dbdbdb;
+            margin-top: 5px;
+            opacity: 0.5;
+        }
+    }
+}
+.zm{
+    width: 100%;
+    font-size: 20px;
+    padding: 0 10px;
+    border-left: 5px solid #26b8fb;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+                  
+}
+main{
+    width: 100%;
+    height: 200px;
+    background: #f7f7f7;
+    div{
+        width: 94%;
+        padding-top: 10px;
+        margin: 0 auto;
+        img{
+            width: 100%;
+        }
+    }
+}
+footer{
+    width: 100%;
+    height: 60px;
+    padding-top: 5px;
+    background: #26b8fb;
+    position: relative;
+    position: fixed;
+    bottom: 0;
+    .yuan{
+        width: 65px;
+        height: 65px;
+        background: #26b8fb;
+        border-radius: 50%;
+        position: absolute;
+        top: -46%;
+        left: 41.5%;
+    }
+    section{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        a{
+            width: 25%;
+            display: block;
+            text-align: center;
+            p{
+                color: #fff;
+                font-size: 14px;
+                margin-top: 3px;
+            }
+            .img{
+                width: 43%;
+            }
+            .img2{
+                width: 65%;
+                margin-top: -34%;
+            }
+        }   
+    }
+}

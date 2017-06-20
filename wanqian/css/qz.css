@@ -1,0 +1,108 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑"; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  width: 100%;
+  padding: 10px 0;
+  background: #26b8fb;
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  position: fixed;
+  top: 0; }
+  header a:nth-child(1) {
+    float: left;
+    margin-left: 5%;
+    margin-top: 1%; }
+    header a:nth-child(1) img {
+      width: 52%; }
+  header a:nth-child(3) {
+    float: right;
+    margin-right: 5%;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 1%; }
+
+nav {
+  width: 100%;
+  padding-top: 53px; }
+  nav section:nth-child(1) div {
+    width: 90%;
+    margin: 15px auto; }
+    nav section:nth-child(1) div input {
+      width: 100%;
+      border: 1px solid #26b8fb;
+      text-align: center;
+      font-size: 1rem;
+      color: #ccebff;
+      height: 35px;
+      border-radius: 3px; }
+  nav section:nth-child(2) {
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto; }
+    nav section:nth-child(2) button {
+      border: 1px solid #26b8fb;
+      border-radius: 2px;
+      background: #fff;
+      color: #26b8fb;
+      width: 15%;
+      height: 25px; }
+
+article {
+  width: 100%;
+  height: 110px;
+  background: #eee; }
+  article section {
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto; }
+    article section div {
+      width: 48%;
+      margin-top: 10px; }
+      article section div img {
+        width: 100%; }
+
+main {
+  width: 100%; }
+  main aside:nth-child(1) section {
+    width: 100%;
+    height: 42px; }
+    main aside:nth-child(1) section div {
+      font-size: 18px;
+      padding: 0 14px;
+      border-left: 5px solid #26b8fb;
+      margin-left: 15px;
+      margin-top: 20px; }
+  main aside:nth-child(2) {
+    width: 100%;
+    margin-top: -20px; }
+    main aside:nth-child(2) ul {
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      margin: 30px auto; }
+      main aside:nth-child(2) ul li {
+        width: 22%;
+        text-align: center; }
+        main aside:nth-child(2) ul li img {
+          width: 100%; }
+        main aside:nth-child(2) ul li p {
+          color: #333;
+          font-size: 14px;
+          margin-top: 10px; }
+
+/*# sourceMappingURL=qz.css.map */
